@@ -5,14 +5,14 @@
   본 저장소에는 에이전트의 소스 코드와 학습 스크립트가 포함되어 있으며, 실제 모델 가중치 파일은 Hugging Face를 통해 배포됩니다.
 
 
-3. Model Weights (Hugging Face)
+2. Model Weights (Hugging Face)
    
   대용량 모델 파일(.pth)은 Hugging Face 저장소에서 다운로드하실 수 있습니다.
 
   Hugging Face Repository: orin00/RL_Chess_Agent
 
 
-4. Project Structure
+3. Project Structure
 
   ChessEngine.py: 체스 게임의 규칙과 로직을 담당하는 엔진
 
@@ -31,12 +31,12 @@
   images/: 체스 말 이미지 자산
 
 
-5. Dataset Attribution & Credits
+4. Dataset Attribution & Credits
 
   본 프로젝트는 아래의 공개 데이터셋 및 데이터베이스를 활용하여 개발되었습니다.
 
 
-5-1. Image Dataset
+4-1. Image Dataset
 
   Name: Chess Images (by Anmol Garg)
 
@@ -44,14 +44,14 @@
 
   Source: Kaggle Link
 
-5-2. Pre-training Data (PGN)
+4-2. Pre-training Data (PGN)
 
   Source: Lichess Open Database
 
   Data: lichess_db_standard_rated_2017-03.pgn
 
 
-6. License
+5. License
 
   Source Code: 본 저장소의 코드는 LICENSE.txt를 따릅니다.
 
