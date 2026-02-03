@@ -3,7 +3,7 @@
 
 2. Model Weights (Hugging Face)
 대용량 모델 파일(.pth)은 Hugging Face 저장소에서 다운로드하실 수 있습니다.
-Hugging Face Repository: orin00/RL_Chess_Agent
+\n Hugging Face Repository: orin00/RL_Chess_Agent
 
 3. Project Structure
 ChessEngine.py: 체스 게임의 규칙과 로직을 담당하는 엔진
