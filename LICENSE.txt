@@ -1,0 +1,21 @@
+Dataset Attribution & Credits
+본 프로젝트는 아래의 공개 데이터셋 및 데이터베이스를 활용하여 개발되었습니다. 모든 데이터는 원저작자의 라이선스 규정을 준수합니다.
+
+1. Image Dataset
+Dataset Name: Chess Images
+Author: Anmol Garg
+Source: Kaggle Dataset Link
+Link: https://www.kaggle.com/datasets/anmolgargnsut/chess-images
+License: Apache License 2.0
+Description: 모델 학습을 위한 말의 이미지 데이터셋입니다.
+
+2. Pre-training Data (PGN)
+Source: Lichess Open Database
+Link: https://database.lichess.org/
+PGNData: lichess_db_standard_rated_2017-03.pgn
+Description: 모델의 사전 학습(Pre-training)을 위해 사용된 대규모 체스 게임 기보(PGN) 데이터입니다.
+
+라이선스 고지 (License Notice)
+본 프로젝트에서 사용된 'Chess Images' 데이터셋은 Apache License 2.0에 따라 배포되었습니다. 라이선스 전문은 아래 링크에서 확인하실 수 있습니다.
+
+http://www.apache.org/licenses/LICENSE-2.0
