@@ -1,0 +1,21 @@
+QA 시작 시간: 2026-02-11 15:11:06.236984
+
+--- [1] Data Parsing & Promotion Indexing Test ---
+Promotion Piece: Q | Calculated Index: 512
+Promotion Piece: R | Calculated Index: 513
+Promotion Piece: B | Calculated Index: 514
+Promotion Piece: N | Calculated Index: 515
+[PASS] 승급 기물별 고유 인덱스 할당 확인.
+
+--- [2] Loss Convergence Analysis ---
+최종 에포크: 2
+Train Loss: 2.8683 | Valid Loss: 2.8233
+Valid Accuracy: 41.39%
+[PASS] Loss가 초기 대비 0.1374만큼 하락하여 안정적으로 수렴 중입니다.
+
+--- [3] ChessNet Gradient & Weight Stability ---
+Total Parameters: 53,154,433
+Average Weight Norm: 10.4387
+[PASS] 가중치 노름이 정상 범위 내에 있어 기울기 소실/폭주 징후가 없습니다.
+
+모든 QA 결과가 ..\qa\pretrain에 저장되었습니다.

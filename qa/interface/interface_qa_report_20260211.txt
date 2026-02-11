@@ -1,0 +1,12 @@
+UI QA 시작 시간: 2026-02-11 15:38:17.979241
+
+--- [1] Animation & Data Integrity QA ---
+Final Frame Coord: (4.0, 4.0) -> Target: (4, 4)
+[PASS] 애니메이션 종료 후 보드 데이터가 화면 좌표와 일치합니다. (소요시간: 0.0010s)
+
+--- [2] AI Inference & UI Panel Sync QA ---
+AI Best Move Suggestion: <ChessEngine.Move object at 0x000001F1193C3650>
+MCTS Inference Latency: 1.9531s
+[PASS] AI 추론 속도가 UI 패널 업데이트에 적합한 수준입니다.
+
+모든 UI 검증 보고서가 ..\qa\interface에 저장되었습니다.
